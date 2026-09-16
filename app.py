@@ -32,11 +32,13 @@ def star(x,y):
         t.right(y)
         t.forward(x)
 
-def rotate():
-    length = 5
-    rotation = 144
-    for i in range(60):
-        star(length, rotation)
-        length += 5
-        t.left(5)
-rotate()
+star(100,144)
+
+# def rotate():
+#     length = 5
+#     rotation = 144
+#     for i in range(60):
+#         star(length, rotation)
+#         length += 5
+#         t.left(5)
+# rotate()
